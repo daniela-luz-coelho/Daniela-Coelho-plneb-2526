@@ -1,0 +1,73 @@
+Manipulação de Strings em Python
+
+Este trabalho contém uma série de exercícios práticos para aprender a manipular strings em Python. Cada exercício mostra como trabalhar com diferentes operações de strings, como inverter, contar caracteres, verificar palíndromos, converter maiúsculas/minúsculas, e verificar anagramas.
+
+1. Inverter uma string
+
+Objetivo: reverter a ordem dos caracteres de uma string.
+
+Exemplo: "Exercicio tpc1" → "1cpt oicicrexE"
+
+Usado o slicing [::-1] para inverter a string de forma simples.
+
+2. Contar ocorrências de 'a' e 'A'
+
+Objetivo: contar quantas vezes os caracteres 'a' e 'A' aparecem numa string.
+
+Exemplo: "Ana Maria Lima" → 'a' aparece 4 vezes e 'A' aparece 1 vez.
+
+Mostra como diferenciar letras maiúsculas e minúsculas.
+
+3. Contar vogais
+
+Objetivo: contar todas as vogais (a, e, i, o, u) numa string, maiúsculas ou minúsculas.
+
+Exemplo: "AAAeieoaiiadiaihsafafakhhasaaiiiiio" → 26 vogais.
+
+Mostra como percorrer a string e verificar cada caractere.
+
+4. Converter para minúsculas
+
+Objetivo: transformar todos os caracteres em minúsculas.
+
+Útil para normalizar textos antes de comparações ou contagens.
+
+5. Converter para maiúsculas
+
+Objetivo: transformar todos os caracteres em maiúsculas.
+
+Similar ao exercício anterior, mas para letras maiúsculas.
+
+6. Verificar se é capicua (palíndromo)
+
+Objetivo: checar se a string é igual à sua inversa.
+
+Exemplo: "Exercicio tpc1" → False
+
+Capicua ou palíndromo é uma string que se lê igual de frente para trás.
+
+7. Verificar se duas strings estão balanceadas
+
+Objetivo: verificar se todos os caracteres de uma string estão presentes na outra.
+
+Exemplo: "abcde" e "edcba" → True
+
+Mostra como comparar conteúdos de strings sem se preocupar com a ordem.
+
+8. Contar ocorrências de uma substring
+
+Objetivo: contar quantas vezes uma substring aparece dentro de outra string.
+
+Exemplo: "abcdeaeiou" em "aeiouaaabcdeaeiou" → 1 ocorrência.
+
+Útil para análise de textos ou padrões específicos.
+
+9. Verificar anagramas
+
+Objetivo: verificar se duas strings são anagramas, ou seja, contêm os mesmos caracteres, mas em ordem diferente.
+
+Exemplo: "listen" e "silent" → True
+
+Exemplo: "hello" e "world" → False
+
+Mostra como usar sorted() para comparar os caracteres independentemente da ordem.
