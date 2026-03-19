@@ -15,10 +15,8 @@ def extrair_full_desc(link):
     return None
 
 def extrair_pagina(url_base):
-    print(url_base)
     html = requests.get(url_base).text
     soup = BeautifulSoup(html, 'html.parser')
-    print(html)
     div_doencas = soup.find_all("div", class_ = "views-row")
 
 
@@ -41,7 +39,6 @@ res = {}
 for letra in string.ascii_lowercase:
     url = f"{url_base}/doencasaaz/{letra}"
     res = res | extrair_pagina(url)
-    break
 
 f_out = open("doencas.json", "w", encoding="utf8")
 json.dump(res, f_out, indent=4, ensure_ascii=False)
