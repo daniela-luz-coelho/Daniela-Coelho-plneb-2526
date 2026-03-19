@@ -9,6 +9,7 @@ Este trabalho recorre ao site **Atlas da Saúde** e recolhe, para cada doença l
 - **Nome** da doença
 - **Descrição curta** (Small_Desc)
 - **Descrição completa** (conteúdo da página individual da doença - Full_Desc)
+
 Os dados são guardados num ficheiro `doencas.json`, organizado alfabeticamente.
 
 O script irá:
